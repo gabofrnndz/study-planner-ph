@@ -1,0 +1,12 @@
+{
+  "version": "2026.1",
+  "note": "Starting references only. Verify full text, effectivity and amendments before enabling official calculations.",
+  "policies": [
+    {"id":"DO-009-2026","type":"DepEd Order","number":"009, s. 2026","title":"Implementation of the three-term school calendar","category":"calendar","status":"under verification"},
+    {"id":"DO-015-2026","type":"DepEd Order","number":"015, s. 2026","title":"Classroom assessment, grading system, awards and recognition","category":"grading","status":"under verification"},
+    {"id":"DO-016-2026","type":"DepEd Order","number":"016, s. 2026","title":"Lesson planning and learning design","category":"lesson planning","status":"under verification"},
+    {"id":"DM-012-2026","type":"DepEd Memorandum","number":"012, s. 2026","title":"Strengthened SHS curriculum implementation","category":"curriculum","status":"under verification"}
+  ],
+  "terms": {"2026-2027": [{"id":"T1","name":"Term 1","start":null,"end":null},{"id":"T2","name":"Term 2","start":null,"end":null},{"id":"T3","name":"Term 3","start":null,"end":null}]},
+  "gradingRules": {"verified": false}
+}
