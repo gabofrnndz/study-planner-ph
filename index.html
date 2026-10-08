@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#5b2fc9">
+<meta name="theme-color" content="#3b1a8f">
 <title>DepEd Study Planner</title>
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap">
 <link rel="stylesheet" href="src/style.css">
 </head><body>
-<aside id="side"><div class="brand"><span class="logo">&#127891;</span> Study Planner</div><nav id="nav" aria-label="Main"></nav></aside>
+<aside id="side"><div class="brand"><span class="logo">&#127891;</span><span>Study<b>Planner</b></span></div><nav id="nav" aria-label="Main"></nav><div id="me"></div></aside>
 <div id="shell">
 <header class="top no-print"><button class="ic" data-menu aria-label="Toggle menu">&#9776;</button>
 <div class="clk"><b id="clock"></b> <span id="date"></span></div>
 <input id="qa" placeholder="Quick add a task, then press Enter" aria-label="Quick add task">
 <div id="ptop"></div></header>
 <main id="main"></main></div>
+<script src="src/policy.js"></script>
 <script src="src/app.js"></script>
 </body></html>
